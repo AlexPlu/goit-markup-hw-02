@@ -55,6 +55,11 @@ ul {
   color: #2e2f42;
 }
 
+.nav-item:hover,
+.nav-item:focus {
+  color: #404bbf;
+}
+
 .hero-section {
   background-color: #2e2f42;
 }
@@ -93,9 +98,13 @@ h2 {
   background-color: #f4f4fd;
 }
 
+.section-list-item {
+  background-color: #ffffff;
+}
+
 .section-title {
   font-size: 36px;
-  line-break: 1.11;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
