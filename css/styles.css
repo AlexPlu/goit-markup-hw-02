@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 a {
@@ -12,8 +12,19 @@ a {
   color: #434455;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts {
+  font-style: normal;
+}
+
+.contact-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.contact-item:hover,
+.contact-item:focus {
   color: #404bbf;
 }
 
@@ -24,20 +35,36 @@ ul {
 .logo {
   color: #2e2f42;
   font-family: "Raleway", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   letter-spacing: 0.54px;
-  line-height: 21px;
+  line-height: 1.17;
   text-transform: uppercase;
-}
-
-.logo-text {
   color: #4d5ae5;
 }
 
-h1 {
+.logo-text {
+  color: #2e2f42;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.hero-section {
+  background-color: #2e2f42;
+}
+
+.hero-title {
   font-weight: 700;
+  color: #ffffff;
   font-size: 56px;
   letter-spacing: 0.02em;
+  line-height: 1.07;
   text-align: center;
 }
 
@@ -47,27 +74,56 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-h3 {
+.section-item-title {
   font-weight: 500;
   font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.section-item-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-section {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  font-size: 36px;
+  line-break: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .primary-button {
   cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
-  width: 169px;
-  height: 56px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   font-weight: 500;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
 }
 
-.primary-button:active {
+.primary-button:hover,
+.primary-button:focus {
   background-color: #404bbf;
+}
+
+.main-page-footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
 }
